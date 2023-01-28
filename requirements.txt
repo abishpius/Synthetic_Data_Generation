@@ -1,0 +1,7 @@
+tensorflow>=2.1.0
+streamlit>=1.8.1
+numpy>=1.16.5
+pandas>=0.25.1
+scikit-learn>=1.0.2
+imblearn>=0.0
+imbalanced-learn>=0.10.1
