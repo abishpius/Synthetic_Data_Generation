@@ -247,7 +247,7 @@ if upload_file is not None:
         
     if gan_submit:
         epochs = int(epochs) + 1
-        samples_to_gen = int(samples_to_gen0
+        samples_to_gen = int(samples_to_gen)
         # If non-numerical data exists create hybrid vector column
         cat_cols = data_raw.loc[:,(data_raw.applymap(type) == str).all(0)].columns.tolist()
         if len(cat_cols) > 0:
